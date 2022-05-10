@@ -6,30 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/2DGamekit/Scenes/Start.unity
-    guid: 57df1e417250bc247976c2c0dc088efe
-  - enabled: 0
-    path: Assets/2DGamekit/Scenes/Zone1.unity
-    guid: a94cb8f134bf81349ad016c79b629e3d
-  - enabled: 0
-    path: Assets/2DGamekit/Scenes/Zone2.unity
-    guid: 5436c67e9267f17458b31fcdc20cd20a
-  - enabled: 0
-    path: Assets/2DGamekit/Scenes/Zone3.unity
-    guid: 4b4b0e246fc7dbb4295a38fd03241362
-  - enabled: 0
-    path: Assets/2DGamekit/Scenes/Zone4.unity
-    guid: 5b0c2d9ddd151ba489db19a4fb634327
-  - enabled: 0
-    path: Assets/2DGamekit/Scenes/Zone5.unity
-    guid: 960b12f881940d84983273421bebc695
-  - enabled: 0
-    path: Assets/2DGamekit/Scenes/UI/UIMenus.unity
-    guid: 705f1f73151a73046842d4e4ec8f514d
-  - enabled: 0
-    path: Assets/2DGamekit/Scenes/UI/Loading.unity
-    guid: ebc4647ff02971c4ba1b207af066be4d
-  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
@@ -47,28 +23,28 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/kit1.unity
-    guid: 333eb41eba6202b42851c68034f2323c
-  - enabled: 1
-    path: Assets/kitlevel.unity
-    guid: 2e388f8f3ea32584b9bf8a2e72c6bd4e
   - enabled: 1
     path: Assets/Final scenes/intro.unity
     guid: 8ab11de33fc2fd34eafd15cec7aed916
-  - enabled: 1
+  - enabled: 0
     path: 
-    guid: 82b3b296318c56841884d150c3006231
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Final scenes/portalhub.unity
-    guid: 71e06e4b8ec3b1848a9daaaeba1dcdb0
-  - enabled: 1
-    path: Assets/portalhub.unity
     guid: f9b3959842469f644a3ebb24728604cb
   - enabled: 1
-    path: Assets/thechoice.unity
+    path: Assets/Final scenes/thechoice.unity
     guid: 87d7d59b837b27b4cb972199d294f92c
   - enabled: 1
-    path: Assets/triphop.unity
+    path: Assets/Final scenes/triphop.unity
     guid: f149bc6bb357133478ce1471c9cbda92
+  - enabled: 1
+    path: Assets/Final scenes/key.unity
+    guid: 30e16e5f2bf71fb4fafafffec5dc3e92
+  - enabled: 1
+    path: Assets/Final scenes/AgainstTheClock.unity
+    guid: c1704da006c40454fb26d770749acaa8
   m_configObjects: {}

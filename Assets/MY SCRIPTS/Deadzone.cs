@@ -19,7 +19,9 @@ public class Deadzone : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            SceneManager.LoadScene("triphop");
+            Debug.Log("entered");
+            //SceneManager.LoadScene("triphop");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
