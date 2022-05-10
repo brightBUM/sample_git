@@ -68,8 +68,9 @@ namespace Gamekit2D
         IEnumerator sleeptime(float time)
         {
             yield return new WaitForSeconds(time);
-            Debug.Log("entered");
-            
+            GameObjectTeleporter.Teleport(transitioningGameObject, destinationTransform.transform);
+
+
         }
         void OnTriggerExit2D (Collider2D other)
         {
@@ -106,8 +107,17 @@ namespace Gamekit2D
         
             if (transitionType == TransitionType.SameScene)
             {
-                StartCoroutine(sleeptime(.2f));
-                GameObjectTeleporter.Teleport (transitioningGameObject, destinationTransform.transform);
+                Debug.Log("same scene");
+                if(transitionWhen == TransitionWhen.OnTriggerEnter)
+                {
+                    StartCoroutine(sleeptime(.25f));
+                }
+                else
+                {
+                    GameObjectTeleporter.Teleport (transitioningGameObject, destinationTransform.transform);
+                }
+
+
             }
             else
             {
