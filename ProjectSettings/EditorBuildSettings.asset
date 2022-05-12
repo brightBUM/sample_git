@@ -4,47 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Final scenes/intro.unity
-    guid: 8ab11de33fc2fd34eafd15cec7aed916
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Final scenes/portalhub.unity
-    guid: f9b3959842469f644a3ebb24728604cb
-  - enabled: 1
-    path: Assets/Final scenes/thechoice.unity
-    guid: 87d7d59b837b27b4cb972199d294f92c
-  - enabled: 1
-    path: Assets/Final scenes/triphop.unity
-    guid: f149bc6bb357133478ce1471c9cbda92
-  - enabled: 1
-    path: Assets/Final scenes/key.unity
-    guid: 30e16e5f2bf71fb4fafafffec5dc3e92
-  - enabled: 1
-    path: Assets/Final scenes/AgainstTheClock.unity
-    guid: c1704da006c40454fb26d770749acaa8
+  m_Scenes: []
   m_configObjects: {}
