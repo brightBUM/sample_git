@@ -108,6 +108,9 @@ namespace Gamekit2D
             if (transitionType == TransitionType.SameScene)
             {
                 Debug.Log("same scene");
+<<<<<<< HEAD
+                StartCoroutine(sleeptime(.3f));
+=======
                 if(transitionWhen == TransitionWhen.OnTriggerEnter)
                 {
                     StartCoroutine(sleeptime(.25f));
@@ -117,6 +120,7 @@ namespace Gamekit2D
                     GameObjectTeleporter.Teleport (transitioningGameObject, destinationTransform.transform);
                 }
 
+>>>>>>> parent of b904e59 (build 3)
 
             }
             else
